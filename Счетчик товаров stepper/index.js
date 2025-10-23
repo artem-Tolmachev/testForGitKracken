@@ -1,6 +1,7 @@
 let stepperEl = document.querySelector('.stepper');
 
 if(stepperEl){
+    console.log()
     const stepperBtnMinusEl = stepperEl.querySelector('.stepper__btn--minus');
     const stepperBtnPlusEl = stepperEl.querySelector('.stepper__btn--plus');
     const stepperInputEl = document.querySelector('.stepper__input');
